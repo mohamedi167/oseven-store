@@ -1,0 +1,6 @@
+{
+  "name": "OSEVEN",
+  "description": "OSEVEN — Streetwear e-commerce storefront with interactive 3D showcase, live outfit builder, and admin studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
