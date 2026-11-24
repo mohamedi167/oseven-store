@@ -14,7 +14,9 @@ import type {
   ShippingZone,
 } from '../src/types';
 
-const DATA_DIR = path.resolve(process.cwd(), 'data');
+const DATA_DIR = process.env.DATA_DIR
+  ? path.resolve(process.env.DATA_DIR)
+  : path.resolve(process.cwd(), 'data');
 const DB_PATH = path.join(DATA_DIR, 'oseven.db');
 
 if (!fs.existsSync(DATA_DIR)) {
